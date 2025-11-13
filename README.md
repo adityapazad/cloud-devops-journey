@@ -6,18 +6,23 @@ A structured, public log documenting my daily progress toward becoming job-ready
 
 ## 📂 Repository Structure
 
- cloud-devops-journey/
- ├── Notes/ # Daily notes + master reference files
- │ ├── 01_Linux/
- │ ├── 02_Networking/
- │ ├── 03_AWS/
- │ ├── 04_Docker/
- │ ├── 05_Kubernetes/
- │ └── 06_CI-CD/
- ├── Projects/ # Hands-on DevOps/Cloud projects
- ├── Weekly-Summaries/ # Weekly recaps and progress
- ├── images/ # Diagrams and screenshots
- └── README.md
+cloud-devops-journey/
+├── Notes/                       # Daily notes + master reference files
+│   ├── 01_Linux/
+│   ├── 02_Networking/
+│   ├── 03_AWS/
+│   ├── 04_Docker/
+│   ├── 05_Kubernetes/
+│   └── 06_CI-CD/
+│
+├── Projects/                   # Hands-on Cloud & DevOps projects
+│   └── (project folders)
+│
+├── Weekly-Summaries/           # Week-by-week progress recaps
+│
+├── images/                     # Diagrams, screenshots used in notes
+│
+└── README.md                   # Repository overview
 
 ---
 
