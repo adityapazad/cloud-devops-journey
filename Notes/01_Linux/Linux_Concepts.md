@@ -1,4 +1,4 @@
-# Linux Core Concepts
+# Linux Concepts
 
 ## Shell
 A command interpreter that executes user commands. Common shells: bash, zsh, sh.
@@ -15,3 +15,9 @@ The core of the operating system. Manages hardware, memory, processes, devices.
 
 ## File System Hierarchy FHS
 Standard directory layout in Linux defining where executables, configs, logs, and user data reside.
+
+## User Creation
+When user is created, then both user and group are created for that user.
+
+## Sudoer
+Sudoer is the on that can use sudo

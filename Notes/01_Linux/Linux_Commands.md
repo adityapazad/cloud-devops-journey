@@ -2,7 +2,7 @@
 
 ## 1. Navigation
 - `pwd` – current directory
-- `ls`, `ls -la` – list files
+- `ls`, `ls -la` – list files, shows all hidden files
 - `cd <path>` – change directory
 - `cd ..` – go up one level
 - `clear` / `Ctrl + L` – clear screen
@@ -22,9 +22,16 @@
 - `hostname` – system hostname
 - `uname -a` – kernel + OS info
 - `env` - list enviroment variables
+- `adduser` <username> - create user (interactive, proper defaults)
+- `useradd` <username> - create user (non-interactive, low level)
+- `usermod` - modifies user
+- `su` - switch user
+- `groups` - current group of user
+- `groupdel <name>` - deletes group
 
 ## 4. System & Permissions
 - `sudo <cmd>` – admin privileges
+- `visudo` - edits /etc/sudoers
 
 ## 5. Command Utilities (Help & Docs)
 - `which <cmd>` – path to executable
@@ -43,3 +50,7 @@
 ## 7. Hardware & Device Information
 - `lsblk` - list block devices
 - `lsusb` - list USB devices
+
+## 8. Seesion Manangement
+- `exit` - close current shell/session
+- `logout` - logout of all login shell
